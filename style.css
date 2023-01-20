@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.logo{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+   transform: translate(-50%, -50%);
+   border-right: 50px solid #a90003;
+   border-left: 50px solid #a90003;
+
+
+}
+.logo::before{
+    content: '';
+    display: block;
+position: absolute;
+background: #db0001;
+width: 50px;
+height: 200px;
+transform: skewX(-26deg);
+
+}
